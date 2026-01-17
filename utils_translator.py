@@ -1,4 +1,4 @@
-# Copyright (c) 2024 maxcreations
+# Copyright (c) 2026 maxcreations
 # Licensed under the MIT License.
 # See LICENSE file in the project root for full license information.
 
@@ -127,4 +127,5 @@ def translate(key, count=None, **kwargs):
     if is_missing:
         return f"<span style='color: red;'>⚠️{formatted_string}⚠️</span>"
     else:
+
         return formatted_string
