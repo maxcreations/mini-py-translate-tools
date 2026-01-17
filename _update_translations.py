@@ -1,4 +1,4 @@
-# Copyright (c) 2024 maxcreations
+# Copyright (c) 2026 maxcreations
 # Licensed under the MIT License.
 # See LICENSE file in the project root for full license information.
 
@@ -175,3 +175,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
