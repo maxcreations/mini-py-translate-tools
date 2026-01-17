@@ -1,4 +1,4 @@
-# Copyright (c) 2024 maxcreations
+# Copyright (c) 2026 maxcreations
 # Licensed under the MIT License.
 # See LICENSE file in the project root for full license information.
 
@@ -34,4 +34,5 @@ if __name__ == "__main__":
     print(translate("missing_key"))
 
     # Formatting error (argument {error} not provided)
+
     print(translate("error_msg"))
