@@ -83,7 +83,7 @@ def process_translation_file(filepath, file_map, found_keys_set):
 
     new_content = [
         f"# {TRANSLATIONS_DIR}/{filename_lang}",
-        f"# Updated by _tool_update_translations.py at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"# Updated by _update_translations.py at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
         f"{DICT_NAME} = {{",
     ]
@@ -175,4 +175,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
