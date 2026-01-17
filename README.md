@@ -35,7 +35,8 @@ The manager uses dynamic imports, so your project must follow this directory str
 your_project/
 │
 ├── main.py                      # Your application logic
-├── _update_translations.py      # (Optional) a tool for auto update all your translation files
+├── utils_translator.py          # Main translation and pluralization logic
+├── _update_translations.py      # (Optional) A tool to automatically update all translation files
 └── translations/                # The translation package
     ├── __init__.py              # Required to make it a package
     ├── en.py                    # Default fallback language (Required)
